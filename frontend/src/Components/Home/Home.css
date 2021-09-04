@@ -1,0 +1,7 @@
+.home-container {
+  background-image: url("../../Assets/Images/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}

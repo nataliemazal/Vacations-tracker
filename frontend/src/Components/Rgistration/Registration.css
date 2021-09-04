@@ -1,0 +1,25 @@
+.register-form {
+  max-width: 550px;
+  margin: 30px auto;
+}
+
+.register-form > div {
+  padding: 10px;
+}
+
+.register-form > div > label {
+  margin-right: 5px;
+}
+
+.register-form div input {
+  padding: 5px 0;
+  width: 200px;
+}
+
+.error {
+  color: red;
+  display: block;
+  font-size: smaller;
+  font-style: italic;
+  margin-top: 3px;
+}

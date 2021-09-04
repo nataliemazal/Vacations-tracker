@@ -1,0 +1,25 @@
+.login-container {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.login-container > div {
+  padding: 10px;
+}
+
+.login-container > div > label {
+  margin-right: 5px;
+}
+
+.login-container div input {
+  padding: 5px 0;
+  width: 200px;
+}
+
+.error {
+  color: red;
+  display: block;
+  font-size: smaller;
+  font-style: italic;
+  margin-top: 3px;
+}

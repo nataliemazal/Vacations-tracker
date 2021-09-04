@@ -1,0 +1,15 @@
+.userVacations {
+  display: flex;
+  flex-direction: row;
+  /* max-width: 500px; */
+  height: auto;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#vacationCard {
+  flex-grow: 1;
+  margin: 20px;
+}

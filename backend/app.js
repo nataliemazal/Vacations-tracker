@@ -16,7 +16,7 @@ server.use(fileUpload());
 server.use(cors());
 server.use(express.json());
 //for hosting
-server.use(express.static(path.join(__dirname,"../frontend")))
+server.use(express.static(path.join(__dirname,"/frontend")))
 //*
 server.use("/api", userController);
 server.use("/api/admin", adminController);
@@ -24,7 +24,7 @@ server.use("/api/auth", authController);
 
 //*
 server.use("*",(request,response)=>{
-    response.sendFile(path.join(__dirname,"../frontend/src/index.tsx"))
+    response.sendFile(path.join(__dirname,"/frontend/public/index.html"))
 })
 //*
 
